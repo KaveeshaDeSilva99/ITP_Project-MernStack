@@ -1,0 +1,23 @@
+GET http://localhost:8070/supplier
+
+###
+POST http://localhost:8070/supplier/add 
+Accept:application/json
+# Content-Type: application/json
+{
+    "name":"piyumal",
+    "address":"colombo",
+    "email_address":"piyumal@gmail.com",
+    "estate_name":"estate",
+    "bank":"BOC",
+    "account_no":"12345678"
+}
+
+
+#   const name = req.body.name;
+#        const nic = req.body.nic;
+#        const address = req.body.address;
+#        const email_address  = req.body.email_address;
+#        const estate_name = req.body.estate_name;
+#        const bank = req.body.bank;
+#        const account_no = req.body.account_no;
